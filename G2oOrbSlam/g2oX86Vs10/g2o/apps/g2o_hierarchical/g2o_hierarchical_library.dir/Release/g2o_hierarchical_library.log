@@ -1,0 +1,276 @@
+﻿生成启动时间为 2016/1/11 16:39:33。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\g2o_hierarchical_library.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“g2o_hierarchical_library.dir\Release\g2o_hierarchical_library.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/apps/g2o_hierarchical/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D g2o_hierarchical_library_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"g2o_hierarchical_library.dir\Release\\" /Fd"g2o_hierarchical_library.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_creator.cpp ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\star.cpp ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_types_cost_function.cpp ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\backbone_tree_action.cpp ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\simple_star_ops.cpp ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp
+         edge_labeler.cpp
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(132): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(132): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(132): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(132): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(132): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(132): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(201): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(201): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(201): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(201): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(201): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp(201): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=g2o::MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<g2o::MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+         edge_creator.cpp
+         star.cpp
+         edge_types_cost_function.cpp
+         backbone_tree_action.cpp
+         simple_star_ops.cpp
+         g2o_hierarchical_test_functions.cpp
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(68): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(68): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(68): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(68): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(68): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(68): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(90): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(90): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(90): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(90): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(90): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(90): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(122): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(122): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(122): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(122): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(122): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(122): error C2784: “bool g2o::sampleUnscented(std::vector<g2o::SigmaPoint<SampleType>> &,const SampleType &,const CovarianceType &)”: 未能从“std::vector<_Ty,_Ax>”为“std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(49) : 参见“g2o::sampleUnscented”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(131): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(131): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(131): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(131): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(131): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp(131): error C2784: “void g2o::reconstructGaussian(SampleType &,CovarianceType &,const std::vector<g2o::SigmaPoint<SampleType>> &)”: 未能从“std::vector<_Ty,_Ax>”为“const std::vector<g2o::SigmaPoint<SampleType>> &”推导 模板 参数
+                 with
+                 [
+                     _Ty=MySigmaPoint,
+                     _Ax=Eigen::aligned_allocator<MySigmaPoint>
+                 ]
+                 D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o/stuff/unscented.h(78) : 参见“g2o::reconstructGaussian”的声明
+         正在生成代码...
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\g2o_hierarchical_library.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:04:14.90

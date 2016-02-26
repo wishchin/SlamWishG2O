@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016/1/11 13:39:39。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\parser\parser_library.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“parser_library.dir\Debug\parser_library.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/examples/interactive_slam/slam_parser/parser/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\parser\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\parser\Debug”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\examples\interactive_slam\slam_parser\parser /Zi /nologo /W3 /WX- /Od /Ob2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"parser_library.dir\Debug\\" /Fd"parser_library.dir\Debug\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\..\..\g2o\g2o\examples\interactive_slam\slam_parser\parser\slam_context.cpp ..\..\..\..\..\..\g2o\g2o\examples\interactive_slam\slam_parser\parser\bison_parser.cpp ..\..\..\..\..\..\g2o\g2o\examples\interactive_slam\slam_parser\parser\driver.cpp ..\..\..\..\..\..\g2o\g2o\examples\interactive_slam\slam_parser\parser\flex_scanner.cpp
+         slam_context.cpp
+         bison_parser.cpp
+         driver.cpp
+         flex_scanner.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_parser_d.lib" /NOLOGO parser_library.dir\Debug\slam_context.obj
+         parser_library.dir\Debug\bison_parser.obj
+         parser_library.dir\Debug\driver.obj
+         parser_library.dir\Debug\flex_scanner.obj
+         parser_library.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_parser_d.lib
+       FinalizeBuildStatus:
+         正在删除文件“parser_library.dir\Debug\parser_library.unsuccessfulbuild”。
+         正在对“parser_library.dir\Debug\parser_library.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\parser\parser_library.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:28.11

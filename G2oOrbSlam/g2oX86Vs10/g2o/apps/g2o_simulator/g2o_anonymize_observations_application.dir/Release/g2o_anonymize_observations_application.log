@@ -1,0 +1,36 @@
+﻿生成启动时间为 2016/1/11 17:14:30。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\g2o_anonymize_observations_application.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“g2o_anonymize_observations_application.dir\Release\g2o_anonymize_observations_application.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/apps/g2o_simulator/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"g2o_anonymize_observations_application.dir\Release\\" /Fd"g2o_anonymize_observations_application.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp
+         g2o_anonymize_observations.cpp
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(44): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+                 ..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(103): 参见对正在编译的函数 模板 实例化“bool anonymizeLandmarkEdge<g2o::EdgeSE2PointXY>(g2o::HyperGraph::Edge *,g2o::OptimizableGraph &)”的引用
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(44): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+                 ..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(104): 参见对正在编译的函数 模板 实例化“bool anonymizeLandmarkEdge<g2o::EdgeSE2PointXYOffset>(g2o::HyperGraph::Edge *,g2o::OptimizableGraph &)”的引用
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(44): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+                 ..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(105): 参见对正在编译的函数 模板 实例化“bool anonymizeLandmarkEdge<g2o::EdgeSE2PointXYBearing>(g2o::HyperGraph::Edge *,g2o::OptimizableGraph &)”的引用
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(59): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+                 ..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(106): 参见对正在编译的函数 模板 实例化“bool anonymizePoseEdge<g2o::EdgeSE2>(g2o::HyperGraph::Edge *,g2o::OptimizableGraph &)”的引用
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(61): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(59): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+                 ..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(107): 参见对正在编译的函数 模板 实例化“bool anonymizePoseEdge<g2o::EdgeSE2Offset>(g2o::HyperGraph::Edge *,g2o::OptimizableGraph &)”的引用
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\g2o_anonymize_observations.cpp(61): error C2039: “setEdgeVertex”: 不是“g2o::OptimizableGraph”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam3d\../../core/optimizable_graph.h(65) : 参见“g2o::OptimizableGraph”的声明
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\g2o_anonymize_observations_application.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:25.29

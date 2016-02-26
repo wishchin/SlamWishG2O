@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/1/11 17:24:10。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\icp\types_icp.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“types_icp.dir\Release\types_icp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/types/icp/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\icp\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\icp\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D types_icp_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"types_icp.dir\Release\\" /Fd"types_icp.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\types\icp\types_icp.cpp
+         types_icp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_icp.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_sba.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_slam3d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_opengl_helper.lib glu32.lib opengl32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_core.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_stuff.lib /MANIFEST /ManifestFile:"types_icp.dir\Release\g2o_types_icp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_icp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_icp.lib" /MACHINE:X86 /DLL types_icp.dir\Release\types_icp.obj  /machine:X86 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_icp.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_icp.exp
+         types_icp.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_icp.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_icp.dll;#2" /manifest types_icp.dir\Release\g2o_types_icp.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“types_icp.dir\Release\types_icp.unsuccessfulbuild”。
+         正在对“types_icp.dir\Release\types_icp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\icp\types_icp.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:53.14

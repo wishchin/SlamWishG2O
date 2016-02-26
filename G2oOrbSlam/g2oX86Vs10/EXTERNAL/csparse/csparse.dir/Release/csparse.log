@@ -1,0 +1,132 @@
+﻿生成启动时间为 2016/1/11 16:33:35。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\csparse\csparse.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“csparse.dir\Release\csparse.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/EXTERNAL/csparse/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\csparse\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\csparse\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D csparse_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"csparse.dir\Release\\" /Fd"csparse.dir\Release\vc100.pdb" /Gd /TC /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\g2o\EXTERNAL\csparse\cs_add.c ..\..\..\g2o\EXTERNAL\csparse\cs_amd.c ..\..\..\g2o\EXTERNAL\csparse\cs_chol.c ..\..\..\g2o\EXTERNAL\csparse\cs_cholsol.c ..\..\..\g2o\EXTERNAL\csparse\cs_compress.c ..\..\..\g2o\EXTERNAL\csparse\cs_counts.c ..\..\..\g2o\EXTERNAL\csparse\cs_cumsum.c ..\..\..\g2o\EXTERNAL\csparse\cs_dfs.c ..\..\..\g2o\EXTERNAL\csparse\cs_dmperm.c ..\..\..\g2o\EXTERNAL\csparse\cs_droptol.c ..\..\..\g2o\EXTERNAL\csparse\cs_dropzeros.c ..\..\..\g2o\EXTERNAL\csparse\cs_dupl.c ..\..\..\g2o\EXTERNAL\csparse\cs_entry.c ..\..\..\g2o\EXTERNAL\csparse\cs_ereach.c ..\..\..\g2o\EXTERNAL\csparse\cs_etree.c ..\..\..\g2o\EXTERNAL\csparse\cs_fkeep.c ..\..\..\g2o\EXTERNAL\csparse\cs_gaxpy.c ..\..\..\g2o\EXTERNAL\csparse\cs_happly.c ..\..\..\g2o\EXTERNAL\csparse\cs_house.c ..\..\..\g2o\EXTERNAL\csparse\cs_ipvec.c ..\..\..\g2o\EXTERNAL\csparse\cs_leaf.c ..\..\..\g2o\EXTERNAL\csparse\cs_load.c ..\..\..\g2o\EXTERNAL\csparse\cs_lsolve.c ..\..\..\g2o\EXTERNAL\csparse\cs_ltsolve.c ..\..\..\g2o\EXTERNAL\csparse\cs_lu.c ..\..\..\g2o\EXTERNAL\csparse\cs_lusol.c ..\..\..\g2o\EXTERNAL\csparse\cs_malloc.c ..\..\..\g2o\EXTERNAL\csparse\cs_maxtrans.c ..\..\..\g2o\EXTERNAL\csparse\cs_multiply.c ..\..\..\g2o\EXTERNAL\csparse\cs_norm.c ..\..\..\g2o\EXTERNAL\csparse\cs_permute.c ..\..\..\g2o\EXTERNAL\csparse\cs_pinv.c ..\..\..\g2o\EXTERNAL\csparse\cs_post.c ..\..\..\g2o\EXTERNAL\csparse\cs_print.c ..\..\..\g2o\EXTERNAL\csparse\cs_pvec.c ..\..\..\g2o\EXTERNAL\csparse\cs_qr.c ..\..\..\g2o\EXTERNAL\csparse\cs_qrsol.c ..\..\..\g2o\EXTERNAL\csparse\cs_randperm.c ..\..\..\g2o\EXTERNAL\csparse\cs_reach.c ..\..\..\g2o\EXTERNAL\csparse\cs_scatter.c ..\..\..\g2o\EXTERNAL\csparse\cs_scc.c ..\..\..\g2o\EXTERNAL\csparse\cs_schol.c ..\..\..\g2o\EXTERNAL\csparse\cs_spsolve.c ..\..\..\g2o\EXTERNAL\csparse\cs_sqr.c ..\..\..\g2o\EXTERNAL\csparse\cs_symperm.c ..\..\..\g2o\EXTERNAL\csparse\cs_tdfs.c ..\..\..\g2o\EXTERNAL\csparse\cs_transpose.c ..\..\..\g2o\EXTERNAL\csparse\cs_updown.c ..\..\..\g2o\EXTERNAL\csparse\cs_usolve.c ..\..\..\g2o\EXTERNAL\csparse\cs_util.c ..\..\..\g2o\EXTERNAL\csparse\cs_utsolve.c  -O3 
+     1>cl : 命令行 warning D9002: 忽略未知选项“-O3”
+         cs_add.c
+         cs_amd.c
+         cs_chol.c
+         cs_cholsol.c
+         cs_compress.c
+         cs_counts.c
+         cs_cumsum.c
+         cs_dfs.c
+         cs_dmperm.c
+         cs_droptol.c
+         cs_dropzeros.c
+         cs_dupl.c
+         cs_entry.c
+         cs_ereach.c
+         cs_etree.c
+         cs_fkeep.c
+         cs_gaxpy.c
+         cs_happly.c
+         cs_house.c
+         cs_ipvec.c
+         正在生成代码...
+         正在编译...
+         cs_leaf.c
+         cs_load.c
+         cs_lsolve.c
+         cs_ltsolve.c
+         cs_lu.c
+         cs_lusol.c
+         cs_malloc.c
+         cs_maxtrans.c
+         cs_multiply.c
+         cs_norm.c
+         cs_permute.c
+         cs_pinv.c
+         cs_post.c
+         cs_print.c
+         cs_pvec.c
+         cs_qr.c
+         cs_qrsol.c
+         cs_randperm.c
+         cs_reach.c
+         cs_scatter.c
+         正在生成代码...
+         正在编译...
+         cs_scc.c
+         cs_schol.c
+         cs_spsolve.c
+         cs_sqr.c
+         cs_symperm.c
+         cs_tdfs.c
+         cs_transpose.c
+         cs_updown.c
+         cs_usolve.c
+         cs_util.c
+         cs_utsolve.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_ext_csparse.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"csparse.dir\Release\g2o_ext_csparse.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_csparse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_csparse.lib" /MACHINE:X86 /DLL csparse.dir\Release\cs_add.obj
+         csparse.dir\Release\cs_amd.obj
+         csparse.dir\Release\cs_chol.obj
+         csparse.dir\Release\cs_cholsol.obj
+         csparse.dir\Release\cs_compress.obj
+         csparse.dir\Release\cs_counts.obj
+         csparse.dir\Release\cs_cumsum.obj
+         csparse.dir\Release\cs_dfs.obj
+         csparse.dir\Release\cs_dmperm.obj
+         csparse.dir\Release\cs_droptol.obj
+         csparse.dir\Release\cs_dropzeros.obj
+         csparse.dir\Release\cs_dupl.obj
+         csparse.dir\Release\cs_entry.obj
+         csparse.dir\Release\cs_ereach.obj
+         csparse.dir\Release\cs_etree.obj
+         csparse.dir\Release\cs_fkeep.obj
+         csparse.dir\Release\cs_gaxpy.obj
+         csparse.dir\Release\cs_happly.obj
+         csparse.dir\Release\cs_house.obj
+         csparse.dir\Release\cs_ipvec.obj
+         csparse.dir\Release\cs_leaf.obj
+         csparse.dir\Release\cs_load.obj
+         csparse.dir\Release\cs_lsolve.obj
+         csparse.dir\Release\cs_ltsolve.obj
+         csparse.dir\Release\cs_lu.obj
+         csparse.dir\Release\cs_lusol.obj
+         csparse.dir\Release\cs_malloc.obj
+         csparse.dir\Release\cs_maxtrans.obj
+         csparse.dir\Release\cs_multiply.obj
+         csparse.dir\Release\cs_norm.obj
+         csparse.dir\Release\cs_permute.obj
+         csparse.dir\Release\cs_pinv.obj
+         csparse.dir\Release\cs_post.obj
+         csparse.dir\Release\cs_print.obj
+         csparse.dir\Release\cs_pvec.obj
+         csparse.dir\Release\cs_qr.obj
+         csparse.dir\Release\cs_qrsol.obj
+         csparse.dir\Release\cs_randperm.obj
+         csparse.dir\Release\cs_reach.obj
+         csparse.dir\Release\cs_scatter.obj
+         csparse.dir\Release\cs_scc.obj
+         csparse.dir\Release\cs_schol.obj
+         csparse.dir\Release\cs_spsolve.obj
+         csparse.dir\Release\cs_sqr.obj
+         csparse.dir\Release\cs_symperm.obj
+         csparse.dir\Release\cs_tdfs.obj
+         csparse.dir\Release\cs_transpose.obj
+         csparse.dir\Release\cs_updown.obj
+         csparse.dir\Release\cs_usolve.obj
+         csparse.dir\Release\cs_util.obj
+         csparse.dir\Release\cs_utsolve.obj  /machine:X86 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_csparse.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_csparse.exp
+         csparse.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_ext_csparse.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_ext_csparse.dll;#2" /manifest csparse.dir\Release\g2o_ext_csparse.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“csparse.dir\Release\csparse.unsuccessfulbuild”。
+         正在对“csparse.dir\Release\csparse.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\csparse\csparse.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:37.75

@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6BE3E0AD-2F1A-40D9-A086-02920A8426E8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>core</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">core.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">g2o_core_d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">core.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">g2o_core</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">core.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">g2o_core_s</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">core.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">g2o_core_rd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4244;4267;4522</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="Debug";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"Debug\";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_stuff_d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4244;4267;4522</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="Release";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"Release\";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_stuff.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_core.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_core.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251;4244;4267;4522</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="MinSizeRel";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"MinSizeRel\";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\MinSizeRel\g2o_stuff_s.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/MinSizeRel/g2o_core_s.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/MinSizeRel/g2o_core_s.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4244;4267;4522</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="RelWithDebInfo";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"RelWithDebInfo\";core_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o;C:\Tools\Eigen\include;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\RelWithDebInfo\g2o_stuff_rd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/RelWithDebInfo/g2o_core_rd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/RelWithDebInfo/g2o_core_rd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\g2o\g2o\core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Works\CMake3.2\bin\cmake.exe -HD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o -BD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10 --check-stamp-file D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Works\CMake3.2\bin\cmake.exe -HD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o -BD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10 --check-stamp-file D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Works\CMake3.2\bin\cmake.exe -HD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o -BD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10 --check-stamp-file D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Works\CMake3.2\bin\cmake.exe -HD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o -BD:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10 --check-stamp-file D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_edge.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_binary_edge.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_binary_edge.hpp" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\hyper_graph_action.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_multi_edge.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_multi_edge.hpp" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\hyper_graph.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_unary_edge.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\linear_solver.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_unary_edge.hpp" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_vertex.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\marginal_covariance_cholesky.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\base_vertex.hpp" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\matrix_structure.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\batch_stats.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\openmp_mutex.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\block_solver.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\block_solver.hpp" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\parameter.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\cache.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimizable_graph.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\solver.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\creators.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm_factory.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\estimate_propagator.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm_property.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\factory.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\sparse_block_matrix.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\sparse_block_matrix.hpp" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\sparse_optimizer.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\hyper_dijkstra.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\parameter_container.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm_with_hessian.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm_gauss_newton.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm_levenberg.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\optimization_algorithm_dogleg.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\sparse_optimizer_terminate_action.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\jacobian_workspace.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\robust_kernel.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\robust_kernel_impl.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\robust_kernel_factory.h" />
+    <ClInclude Include="..\..\..\g2o\g2o\core\g2o_core_api.h" />
+    <ClCompile Include="..\..\..\g2o\g2o\core\hyper_graph_action.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\hyper_graph.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\marginal_covariance_cholesky.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\matrix_structure.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\batch_stats.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\parameter.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\cache.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimizable_graph.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\solver.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimization_algorithm_factory.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\estimate_propagator.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\factory.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\sparse_optimizer.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\hyper_dijkstra.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\parameter_container.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimization_algorithm.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimization_algorithm_with_hessian.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimization_algorithm_gauss_newton.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimization_algorithm_levenberg.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\optimization_algorithm_dogleg.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\sparse_optimizer_terminate_action.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\jacobian_workspace.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\robust_kernel.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\robust_kernel_impl.cpp"  />
+    <ClCompile Include="..\..\..\g2o\g2o\core\robust_kernel_factory.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/ZERO_CHECK.vcxproj">
+      <Project>8DA59F47-48C3-49AC-839E-4094901143BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/stuff/stuff.vcxproj">
+      <Project>0B3E4276-984D-4B92-8CAB-0121AEBE7056</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\gm2dl_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\sclam_helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\edge_se2_pure_calib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\closed_form_calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\gm2dl_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\sclam_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\motion_information.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\edge_se2_pure_calib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\closed_form_calibration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\g2o_calibration_odom_laser_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\g2o\g2o\examples\calibration_odom_laser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A8E46308-EE53-48AD-9C4C-609793D5AE72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18E365A7-DEA9-4C4C-8DFB-E9861CC83C78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

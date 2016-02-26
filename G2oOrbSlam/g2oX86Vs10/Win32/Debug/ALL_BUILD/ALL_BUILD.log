@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/1/11 15:52:34。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\ALL_BUILD.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\CMakeFiles\generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild”。
+         正在对“Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\ALL_BUILD.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.95

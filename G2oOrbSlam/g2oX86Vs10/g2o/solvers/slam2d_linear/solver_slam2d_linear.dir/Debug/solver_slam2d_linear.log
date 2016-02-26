@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/1/11 15:29:08。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\slam2d_linear\solver_slam2d_linear.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“solver_slam2d_linear.dir\Debug\solver_slam2d_linear.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/solvers/slam2d_linear/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\slam2d_linear\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\slam2d_linear\Debug”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\EXTERNAL\csparse /Zi /nologo /W3 /WX- /Od /Ob2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Debug\"" /D solver_slam2d_linear_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"solver_slam2d_linear.dir\Debug\\" /Fd"solver_slam2d_linear.dir\Debug\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\solvers\slam2d_linear\slam2d_linear.cpp ..\..\..\..\g2o\g2o\solvers\slam2d_linear\solver_slam2d_linear.cpp
+         slam2d_linear.cpp
+         solver_slam2d_linear.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"solver_slam2d_linear.dir\Debug\g2o_solver_slam2d_linear_d.dll.embed.manifest.res" solver_slam2d_linear.dir\Debug\g2o_solver_slam2d_linear_d_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_solver_slam2d_linear_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_solver_csparse_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_types_slam2d_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_csparse_extension_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_ext_csparse_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_core_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_stuff_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_opengl_helper_d.lib glu32.lib opengl32.lib /MANIFEST /ManifestFile:"solver_slam2d_linear.dir\Debug\g2o_solver_slam2d_linear_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_solver_slam2d_linear_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_solver_slam2d_linear_d.lib" /MACHINE:X86 /DLL solver_slam2d_linear.dir\Debug\g2o_solver_slam2d_linear_d.dll.embed.manifest.res
+         solver_slam2d_linear.dir\Debug\slam2d_linear.obj
+         solver_slam2d_linear.dir\Debug\solver_slam2d_linear.obj  /machine:X86 /debug 
+     1>LINK : fatal error LNK1104: 无法打开文件“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_types_slam2d_d.lib”
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\slam2d_linear\solver_slam2d_linear.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:00.46

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\edge_se2_pointxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\edge_se2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\vertex_se2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\vertex_point_xy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\parameter_se2_offset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\types_tutorial_slam2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\se2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\vertex_point_xy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\edge_se2_pointxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\edge_se2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\vertex_se2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\parameter_se2_offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\types_tutorial_slam2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\g2o_tutorial_slam2d_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\g2o\g2o\examples\tutorial_slam2d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A8E46308-EE53-48AD-9C4C-609793D5AE72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18E365A7-DEA9-4C4C-8DFB-E9861CC83C78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

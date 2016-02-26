@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/1/11 16:47:09。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\pcg\solver_pcg.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“solver_pcg.dir\Release\solver_pcg.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/solvers/pcg/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\pcg\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\pcg\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D solver_pcg_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"solver_pcg.dir\Release\\" /Fd"solver_pcg.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\solvers\pcg\solver_pcg.cpp
+         solver_pcg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_solver_pcg.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_core.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_stuff.lib /MANIFEST /ManifestFile:"solver_pcg.dir\Release\g2o_solver_pcg.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_solver_pcg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_solver_pcg.lib" /MACHINE:X86 /DLL solver_pcg.dir\Release\solver_pcg.obj  /machine:X86 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_solver_pcg.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_solver_pcg.exp
+         solver_pcg.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_solver_pcg.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_solver_pcg.dll;#2" /manifest solver_pcg.dir\Release\g2o_solver_pcg.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“solver_pcg.dir\Release\solver_pcg.unsuccessfulbuild”。
+         正在对“solver_pcg.dir\Release\solver_pcg.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\solvers\pcg\solver_pcg.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:03:49.72

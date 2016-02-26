@@ -1,0 +1,43 @@
+﻿生成启动时间为 2016/1/11 17:14:03。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d_addons\types_slam3d_addons.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“types_slam3d_addons.dir\Release\types_slam3d_addons.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/types/slam3d_addons/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d_addons\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d_addons\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D types_slam3d_addons_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"types_slam3d_addons.dir\Release\\" /Fd"types_slam3d_addons.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\types\slam3d_addons\vertex_se3_euler.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\edge_se3_euler.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\vertex_plane.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\edge_se3_plane_calib.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\line3d.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\vertex_line3d.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\edge_se3_line.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\edge_line3d.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\edge_plane.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\edge_se3_calib.cpp ..\..\..\..\g2o\g2o\types\slam3d_addons\types_slam3d_addons.cpp
+         vertex_se3_euler.cpp
+         edge_se3_euler.cpp
+         vertex_plane.cpp
+         edge_se3_plane_calib.cpp
+         line3d.cpp
+         vertex_line3d.cpp
+         edge_se3_line.cpp
+         edge_line3d.cpp
+         edge_plane.cpp
+         edge_se3_calib.cpp
+         types_slam3d_addons.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_slam3d_addons.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_slam3d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_core.lib opengl32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_stuff.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_opengl_helper.lib glu32.lib opengl32.lib /MANIFEST /ManifestFile:"types_slam3d_addons.dir\Release\g2o_types_slam3d_addons.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_slam3d_addons.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_slam3d_addons.lib" /MACHINE:X86 /DLL types_slam3d_addons.dir\Release\vertex_se3_euler.obj
+         types_slam3d_addons.dir\Release\edge_se3_euler.obj
+         types_slam3d_addons.dir\Release\vertex_plane.obj
+         types_slam3d_addons.dir\Release\edge_se3_plane_calib.obj
+         types_slam3d_addons.dir\Release\line3d.obj
+         types_slam3d_addons.dir\Release\vertex_line3d.obj
+         types_slam3d_addons.dir\Release\edge_se3_line.obj
+         types_slam3d_addons.dir\Release\edge_line3d.obj
+         types_slam3d_addons.dir\Release\edge_plane.obj
+         types_slam3d_addons.dir\Release\edge_se3_calib.obj
+         types_slam3d_addons.dir\Release\types_slam3d_addons.obj  /machine:X86 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_slam3d_addons.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_types_slam3d_addons.exp
+     1>types_slam3d_addons.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall g2o::VertexSE3DrawAction::VertexSE3DrawAction(void)" (??0VertexSE3DrawAction@g2o@@QAE@XZ)，该符号在函数 "void __cdecl g2o::init_slam3d_addons_types(void)" (?init_slam3d_addons_types@g2o@@YAXXZ) 中被引用
+     1>D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_slam3d_addons.dll : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d_addons\types_slam3d_addons.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:13:04.53

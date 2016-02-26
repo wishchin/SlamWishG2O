@@ -1,0 +1,51 @@
+﻿生成启动时间为 2016/1/11 16:38:25。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam2d\types_slam2d.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“types_slam2d.dir\Release\types_slam2d.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/types/slam2d/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam2d\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam2d\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D types_slam2d_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"types_slam2d.dir\Release\\" /Fd"types_slam2d.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\types\slam2d\edge_se2.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy_calib.cpp ..\..\..\..\g2o\g2o\types\slam2d\types_slam2d.cpp ..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy.cpp ..\..\..\..\g2o\g2o\types\slam2d\vertex_se2.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy_bearing.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_prior.cpp ..\..\..\..\g2o\g2o\types\slam2d\parameter_se2_offset.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_offset.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy_offset.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_xyprior.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_pointxy.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_twopointsxy.cpp ..\..\..\..\g2o\g2o\types\slam2d\edge_se2_lotsofxy.cpp
+         edge_se2.cpp
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2.cpp(163): error C2065: “POSE_EDGE_GHOST_COLOR”: 未声明的标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2.cpp(173): error C2065: “POSE_EDGE_GHOST_COLOR”: 未声明的标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2.cpp(183): error C2065: “POSE_EDGE_COLOR”: 未声明的标识符
+         edge_se2_pointxy_calib.cpp
+         types_slam2d.cpp
+         vertex_point_xy.cpp
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp(94): error C3861: “initializeDrawActionsCache”: 找不到标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp(106): error C2065: “LANDMARK_VERTEX_COLOR”: 未声明的标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp(109): error C2039: “drawPoint”: 不是“g2o::opengl”的成员
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp(109): error C3861: “drawPoint”: 找不到标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp(111): error C3861: “drawCache”: 找不到标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_point_xy.cpp(112): error C3861: “drawUserData”: 找不到标识符
+         edge_se2_pointxy.cpp
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy.cpp(108): error C2039: “numUndefinedVertices”: 不是“g2o::EdgeSE2PointXY”的成员
+                 d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\g2o\types\slam2d\edge_se2_pointxy.h(38) : 参见“g2o::EdgeSE2PointXY”的声明
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy.cpp(145): error C2065: “LANDMARK_EDGE_GHOST_COLOR”: 未声明的标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy.cpp(154): error C2065: “LANDMARK_EDGE_COLOR”: 未声明的标识符
+         vertex_se2.cpp
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_se2.cpp(97): error C3861: “initializeDrawActionsCache”: 找不到标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_se2.cpp(108): error C2065: “POSE_VERTEX_COLOR”: 未声明的标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_se2.cpp(113): error C3861: “drawCache”: 找不到标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\vertex_se2.cpp(114): error C3861: “drawUserData”: 找不到标识符
+         edge_se2_pointxy_bearing.cpp
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy_bearing.cpp(118): error C2065: “LANDMARK_EDGE_GHOST_COLOR”: 未声明的标识符
+     1>..\..\..\..\g2o\g2o\types\slam2d\edge_se2_pointxy_bearing.cpp(127): error C2065: “LANDMARK_EDGE_COLOR”: 未声明的标识符
+         edge_se2_prior.cpp
+         parameter_se2_offset.cpp
+         edge_se2_offset.cpp
+         edge_se2_pointxy_offset.cpp
+         edge_se2_xyprior.cpp
+         edge_pointxy.cpp
+         edge_se2_twopointsxy.cpp
+         edge_se2_lotsofxy.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam2d\types_slam2d.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:17:23.91

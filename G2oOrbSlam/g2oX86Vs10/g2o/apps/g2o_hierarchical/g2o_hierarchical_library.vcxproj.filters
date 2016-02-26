@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_creator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_types_cost_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\backbone_tree_action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\simple_star_ops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_test_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_labeler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_creator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\edge_types_cost_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\backbone_tree_action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\simple_star_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\g2o\g2o\apps\g2o_hierarchical\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A8E46308-EE53-48AD-9C4C-609793D5AE72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18E365A7-DEA9-4C4C-8DFB-E9861CC83C78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

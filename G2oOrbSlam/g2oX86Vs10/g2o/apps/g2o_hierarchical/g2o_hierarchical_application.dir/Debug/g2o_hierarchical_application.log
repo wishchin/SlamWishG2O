@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/1/11 15:30:09。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\g2o_hierarchical_application.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“g2o_hierarchical_application.dir\Debug\g2o_hierarchical_application.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/apps/g2o_hierarchical/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /Zi /nologo /W3 /WX- /Od /Ob2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"g2o_hierarchical_application.dir\Debug\\" /Fd"g2o_hierarchical_application.dir\Debug\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\apps\g2o_hierarchical\g2o_hierarchical.cpp
+         g2o_hierarchical.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"g2o_hierarchical_application.dir\Debug\g2o_hierarchical.exe.embed.manifest.res" g2o_hierarchical_application.dir\Debug\g2o_hierarchical_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_hierarchical.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_hierarchical_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_cli_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_types_slam3d_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_core_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_stuff_d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_opengl_helper_d.lib glu32.lib opengl32.lib /MANIFEST /ManifestFile:"g2o_hierarchical_application.dir\Debug\g2o_hierarchical.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_hierarchical.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_hierarchical.lib" /MACHINE:X86 g2o_hierarchical_application.dir\Debug\g2o_hierarchical.exe.embed.manifest.res
+         g2o_hierarchical_application.dir\Debug\g2o_hierarchical.obj  /machine:X86 /debug 
+     1>LINK : fatal error LNK1104: 无法打开文件“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_hierarchical_d.lib”
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_hierarchical\g2o_hierarchical_application.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:30.30

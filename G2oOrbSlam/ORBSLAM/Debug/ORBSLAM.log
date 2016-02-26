@@ -1,0 +1,59 @@
+﻿生成启动时间为 2015/12/30 星期三 上午 10:46:37。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\Build\Win\ORBSLAM\ORBSLAM\ORBSLAM.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\Build\Win\ORBSLAM\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\ORBSLAM.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ORBSLAM.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\source\ComputeScale.cpp ..\..\..\..\source\Converter.cpp ..\..\..\..\source\Frame.cpp ..\..\..\..\source\FramePublisher.cpp ..\..\..\..\source\Initializer.cpp ..\..\..\..\source\KeyFrame.cpp ..\..\..\..\source\KeyFrameDatabase.cpp ..\..\..\..\source\LocalMapping.cpp ..\..\..\..\source\LoopClosing.cpp ..\..\..\..\source\Map.cpp ..\..\..\..\source\MapPoint.cpp ..\..\..\..\source\MapPublisher.cpp ..\..\..\..\source\Monoslam_test.cpp ..\..\..\..\source\Optimizer.cpp ..\..\..\..\source\ORBextractor.cpp ..\..\..\..\source\ORBmatcher.cpp ..\..\..\..\source\PnPsolver.cpp ..\..\..\..\source\ShowTrajectory.cpp ..\..\..\..\source\Sim3Solver.cpp ..\..\..\..\source\stdafx.cpp ..\..\..\..\source\Tracking.cpp
+         Tracking.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\tracking.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\tracking.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         stdafx.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\stdafx.cpp(5): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Sim3Solver.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\sim3solver.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         ShowTrajectory.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\showtrajectory.cpp(1): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         PnPsolver.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\pnpsolver.cpp(21): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         ORBmatcher.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\orbmatcher.cpp(21): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         ORBextractor.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\orbextractor.cpp(56): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Optimizer.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\optimizer.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Monoslam_test.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\monoslam_test.cpp(4): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         MapPublisher.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\mappublisher.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         MapPoint.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\mappoint.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Map.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\map.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         LoopClosing.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\loopclosing.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         LocalMapping.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\localmapping.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         KeyFrameDatabase.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\keyframedatabase.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         KeyFrame.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\keyframe.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Initializer.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\initializer.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         FramePublisher.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\framepublisher.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Frame.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\frame.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         Converter.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\converter.cpp(20): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         正在生成代码...
+         正在编译...
+         ComputeScale.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2012_x64\source\computescale.cpp(1): fatal error C1083: 无法打开预编译头文件:“Debug\ORBSLAM.pch”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\Build\Win\ORBSLAM\ORBSLAM\ORBSLAM.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.96

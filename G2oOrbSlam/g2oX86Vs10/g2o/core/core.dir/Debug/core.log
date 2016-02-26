@@ -1,0 +1,109 @@
+﻿生成启动时间为 2016/1/11 13:40:21。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\core.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“core.dir\Debug\core.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/core/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\Debug”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /Zi /nologo /W3 /WX- /Od /Ob2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Debug\"" /D core_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"core.dir\Debug\\" /Fd"core.dir\Debug\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\g2o\g2o\core\hyper_graph_action.cpp ..\..\..\g2o\g2o\core\hyper_graph.cpp ..\..\..\g2o\g2o\core\marginal_covariance_cholesky.cpp ..\..\..\g2o\g2o\core\matrix_structure.cpp ..\..\..\g2o\g2o\core\batch_stats.cpp ..\..\..\g2o\g2o\core\parameter.cpp ..\..\..\g2o\g2o\core\cache.cpp ..\..\..\g2o\g2o\core\optimizable_graph.cpp ..\..\..\g2o\g2o\core\solver.cpp ..\..\..\g2o\g2o\core\optimization_algorithm_factory.cpp ..\..\..\g2o\g2o\core\estimate_propagator.cpp ..\..\..\g2o\g2o\core\factory.cpp ..\..\..\g2o\g2o\core\sparse_optimizer.cpp ..\..\..\g2o\g2o\core\hyper_dijkstra.cpp ..\..\..\g2o\g2o\core\parameter_container.cpp ..\..\..\g2o\g2o\core\optimization_algorithm.cpp ..\..\..\g2o\g2o\core\optimization_algorithm_with_hessian.cpp ..\..\..\g2o\g2o\core\optimization_algorithm_gauss_newton.cpp ..\..\..\g2o\g2o\core\optimization_algorithm_levenberg.cpp ..\..\..\g2o\g2o\core\optimization_algorithm_dogleg.cpp ..\..\..\g2o\g2o\core\sparse_optimizer_terminate_action.cpp ..\..\..\g2o\g2o\core\jacobian_workspace.cpp ..\..\..\g2o\g2o\core\robust_kernel.cpp ..\..\..\g2o\g2o\core\robust_kernel_impl.cpp ..\..\..\g2o\g2o\core\robust_kernel_factory.cpp
+         hyper_graph_action.cpp
+         hyper_graph.cpp
+         marginal_covariance_cholesky.cpp
+         matrix_structure.cpp
+         batch_stats.cpp
+         parameter.cpp
+         cache.cpp
+         optimizable_graph.cpp
+         solver.cpp
+         optimization_algorithm_factory.cpp
+         estimate_propagator.cpp
+         factory.cpp
+         sparse_optimizer.cpp
+         hyper_dijkstra.cpp
+         parameter_container.cpp
+         optimization_algorithm.cpp
+         optimization_algorithm_with_hessian.cpp
+         optimization_algorithm_gauss_newton.cpp
+         optimization_algorithm_levenberg.cpp
+         optimization_algorithm_dogleg.cpp
+         正在生成代码...
+         正在编译...
+         sparse_optimizer_terminate_action.cpp
+         jacobian_workspace.cpp
+         robust_kernel.cpp
+         robust_kernel_impl.cpp
+         robust_kernel_factory.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"core.dir\Debug\g2o_core_d.dll.embed.manifest.res" core.dir\Debug\g2o_core_d_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_core_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_stuff_d.lib /MANIFEST /ManifestFile:"core.dir\Debug\g2o_core_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.lib" /MACHINE:X86 /DLL core.dir\Debug\g2o_core_d.dll.embed.manifest.res
+         core.dir\Debug\hyper_graph_action.obj
+         core.dir\Debug\hyper_graph.obj
+         core.dir\Debug\marginal_covariance_cholesky.obj
+         core.dir\Debug\matrix_structure.obj
+         core.dir\Debug\batch_stats.obj
+         core.dir\Debug\parameter.obj
+         core.dir\Debug\cache.obj
+         core.dir\Debug\optimizable_graph.obj
+         core.dir\Debug\solver.obj
+         core.dir\Debug\optimization_algorithm_factory.obj
+         core.dir\Debug\estimate_propagator.obj
+         core.dir\Debug\factory.obj
+         core.dir\Debug\sparse_optimizer.obj
+         core.dir\Debug\hyper_dijkstra.obj
+         core.dir\Debug\parameter_container.obj
+         core.dir\Debug\optimization_algorithm.obj
+         core.dir\Debug\optimization_algorithm_with_hessian.obj
+         core.dir\Debug\optimization_algorithm_gauss_newton.obj
+         core.dir\Debug\optimization_algorithm_levenberg.obj
+         core.dir\Debug\optimization_algorithm_dogleg.obj
+         core.dir\Debug\sparse_optimizer_terminate_action.obj
+         core.dir\Debug\jacobian_workspace.obj
+         core.dir\Debug\robust_kernel.obj
+         core.dir\Debug\robust_kernel_impl.obj
+         core.dir\Debug\robust_kernel_factory.obj  /machine:X86 /debug 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"core.dir\Debug\g2o_core_d.dll.embed.manifest" /manifest core.dir\Debug\g2o_core_d.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"core.dir\Debug\g2o_core_d.dll.embed.manifest.res" core.dir\Debug\g2o_core_d_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_core_d.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_stuff_d.lib /MANIFEST /ManifestFile:"core.dir\Debug\g2o_core_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.lib" /MACHINE:X86 /DLL core.dir\Debug\g2o_core_d.dll.embed.manifest.res
+         core.dir\Debug\hyper_graph_action.obj
+         core.dir\Debug\hyper_graph.obj
+         core.dir\Debug\marginal_covariance_cholesky.obj
+         core.dir\Debug\matrix_structure.obj
+         core.dir\Debug\batch_stats.obj
+         core.dir\Debug\parameter.obj
+         core.dir\Debug\cache.obj
+         core.dir\Debug\optimizable_graph.obj
+         core.dir\Debug\solver.obj
+         core.dir\Debug\optimization_algorithm_factory.obj
+         core.dir\Debug\estimate_propagator.obj
+         core.dir\Debug\factory.obj
+         core.dir\Debug\sparse_optimizer.obj
+         core.dir\Debug\hyper_dijkstra.obj
+         core.dir\Debug\parameter_container.obj
+         core.dir\Debug\optimization_algorithm.obj
+         core.dir\Debug\optimization_algorithm_with_hessian.obj
+         core.dir\Debug\optimization_algorithm_gauss_newton.obj
+         core.dir\Debug\optimization_algorithm_levenberg.obj
+         core.dir\Debug\optimization_algorithm_dogleg.obj
+         core.dir\Debug\sparse_optimizer_terminate_action.obj
+         core.dir\Debug\jacobian_workspace.obj
+         core.dir\Debug\robust_kernel.obj
+         core.dir\Debug\robust_kernel_impl.obj
+         core.dir\Debug\robust_kernel_factory.obj  /machine:X86 /debug 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Debug/g2o_core_d.exp
+         core.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Debug\g2o_core_d.dll
+       FinalizeBuildStatus:
+         正在删除文件“core.dir\Debug\core.unsuccessfulbuild”。
+         正在对“core.dir\Debug\core.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\core\core.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:03:06.04

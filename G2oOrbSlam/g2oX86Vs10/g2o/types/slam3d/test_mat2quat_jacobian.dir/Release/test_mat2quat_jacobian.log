@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/1/11 17:14:57。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d\test_mat2quat_jacobian.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“test_mat2quat_jacobian.dir\Release\test_mat2quat_jacobian.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/types/slam3d/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"test_mat2quat_jacobian.dir\Release\\" /Fd"test_mat2quat_jacobian.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\types\slam3d\test_mat2quat_jacobian.cpp
+         test_mat2quat_jacobian.cpp
+     1>d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\external\ceres\fpclassify.h(49): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\codebase\iisuvr\orb_slam_vs2010_x86\g2o\external\ceres\fpclassify.h(51): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\test_mat2quat_jacobian.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_types_slam3d.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_core.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_stuff.lib D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_opengl_helper.lib glu32.lib opengl32.lib /MANIFEST /ManifestFile:"test_mat2quat_jacobian.dir\Release\test_mat2quat_jacobian.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/test_mat2quat_jacobian.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/test_mat2quat_jacobian.lib" /MACHINE:X86 test_mat2quat_jacobian.dir\Release\test_mat2quat_jacobian.obj  /machine:X86 
+         test_mat2quat_jacobian.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\test_mat2quat_jacobian.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\test_mat2quat_jacobian.exe;#1" /manifest test_mat2quat_jacobian.dir\Release\test_mat2quat_jacobian.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“test_mat2quat_jacobian.dir\Release\test_mat2quat_jacobian.unsuccessfulbuild”。
+         正在对“test_mat2quat_jacobian.dir\Release\test_mat2quat_jacobian.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\types\slam3d\test_mat2quat_jacobian.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:31.15

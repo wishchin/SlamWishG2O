@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\1PointRansac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\AddMapFeature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\CommonFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\DetectNewImageFeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\EKF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\HandMatching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\ImageFeatureMeasurement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\ImageFeaturePrediction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\MapFeature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\MapManagement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\Matching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\MeasurementPrediction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\State.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\StateAndCovariancePrediction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\1PointRansacEKF\Update.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Core\EKFMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Core\Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Gui\Draw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\ImageGenerator\CameraImageGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\ImageGenerator\FileSequenceImageGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\ImageGenerator\FileSequenceOnDemandImageGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\ImageGenerator\ImageGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\ImageGenerator\SlidingWindowImageGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\ImageGenerator\VideoFileImageGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDefines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\ConfigurationDataReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\FeatureDetectorConfiguration\FeatureDetectorConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\FeatureDetectorConfiguration\FeatureDetectorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\FeatureDetectorConfiguration\FeatureDetectorTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\ExtendedKalmanFilterConfiguration\ExtendedKalmanFilterConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\ExtendedKalmanFilterConfiguration\ExtendedKalmanFilterParameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\DescriptorExtractorConfiguration\DescriptorExtractorConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\DescriptorExtractorConfiguration\DescriptorExtractorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\DescriptorExtractorConfiguration\DescriptorExtractorTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\CameraCalibrationConfiguration\CameraCalibration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\CameraCalibrationConfiguration\CameraCalibrationConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kalmanFilter\modules\Core\Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="G2oOrbSlam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\1PointRansac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\AddMapFeature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\CommonFunctions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\DetectNewImageFeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\EKF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\HandMatching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\ImageFeatureMeasurement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\ImageFeaturePrediction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\MapFeature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\MapManagement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\Matching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\MeasurementPrediction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\State.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\StateAndCovariancePrediction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\1PointRansacEKF\Update.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Core\EKFMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Core\Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Gui\Draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\ImageGenerator\CameraImageGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\ImageGenerator\FileSequenceImageGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\ImageGenerator\FileSequenceOnDemandImageGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\ImageGenerator\SlidingWindowImageGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\ImageGenerator\VideoFileImageGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\ConfigurationDataReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\FeatureDetectorConfiguration\FeatureDetectorConfiguration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\FeatureDetectorConfiguration\FeatureDetectorFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\ExtendedKalmanFilterConfiguration\ExtendedKalmanFilterConfiguration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\DescriptorExtractorConfiguration\DescriptorExtractorConfiguration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\DescriptorExtractorConfiguration\DescriptorExtractorFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kalmanFilter\modules\Configuration\ConfigurationDataReader\CameraCalibrationConfiguration\CameraCalibrationConfiguration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

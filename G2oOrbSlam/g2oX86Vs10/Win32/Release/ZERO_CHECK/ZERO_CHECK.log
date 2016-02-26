@@ -1,0 +1,58 @@
+﻿生成启动时间为 2016/1/11 16:33:30。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\ZERO_CHECK.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\Release\”。
+       InitializeBuildStatus:
+         正在创建“Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/EXTERNAL/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/EXTERNAL/csparse/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/EXTERNAL/freeglut/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/stuff/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/core/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/apps/g2o_cli/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/apps/g2o_hierarchical/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/apps/g2o_simulator/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/data/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/slam2d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/slam3d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/sba/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/sim3/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/icp/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/sclam2d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/slam2d_addons/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/types/slam3d_addons/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/solvers/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/solvers/pcg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/solvers/dense/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/solvers/structure_only/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/solvers/csparse/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/solvers/slam2d_linear/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/data_fitting/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/sphere/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/tutorial_slam2d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/icp/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/calibration_odom_laser/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/simple_optimize/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/plane_slam/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/sba/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/bal/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/data_convert/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/interactive_slam/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/interactive_slam/slam_parser/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2oX86Vs10/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”。
+         正在对“Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\ZERO_CHECK.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.78

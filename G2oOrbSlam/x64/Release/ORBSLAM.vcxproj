@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8DC31E5-B05A-4122-B256-756D3BF86F78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ORBSLAM</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="..\Microsoft.Cpp.x64.user_d.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="..\Microsoft.Cpp.x64.user_r.props" />
+    <Import Project="..\PCL1.7.2.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Tools\OpenCV2.4.10\opencv\build\include;C:\Tools\OpenCV2.4.10\opencv\build\include\opencv;C:\Tools\OpenCV2.4.10\opencv\build\include\opencv2;C:\Tools\openCV2.4.10\opencv\build\include\opencv;C:\Tools\openCV2.4.10\opencv\build\include\opencv2;C:\Tools\openCV2.4.10\opencv\build\include;C:\Tools\PCL1.7.2Vs12X64\include\pcl-1.7\;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Boost\include\boost-1_57;C:\Program Files %28x86%29\OpenNI\Include;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Eigen\eigen3;C:\Tools\PCL1.7.2Vs12X64\3rdParty\FLANN\include;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Qhull\include;C:\Tools\PCL1.7.2Vs12X64\3rdParty\VTK\include\vtk-6.2;C:\QT\QT4.8.6X86\include\QtCore;C:\QT\QT4.8.6X86\include\QtGui;C:\QT\QT4.8.6X86\include\Qt3Support;C:\QT\QT4.8.6X86\include\QtOpenGL;C:\QT\QT4.8.6X86\include\;..\..\..\..\Dbow_orbslam\DboW2;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\DBoW2_orbslam\DBoW2;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\DBoW2_orbslam\DUtils;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\g2o;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\g2o\cholmod-4.0.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tools\OpenCV2.4.10\opencv\build\x64\vc11;C:\Tools\openCV2.4.10\opencv\build\x64\vc11\lib;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Boost\lib;C:\Tools\PCL1.7.2Vs12X64\3rdParty\VTK\lib\;C:\Tools\PCL1.7.2Vs12X64\3rdParty\FLANN\lib;C:\Tools\PCL1.7.2Vs12X64\lib\;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Qhull\lib;C:\Program Files %28x86%29\OpenNI\Lib;C:\QT\QT4.8.6X86\lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o\bin\Debug;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o-src\cholmod-4.0.0\lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\DBoW2_orbslam\lib\Debug;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o-src\cholmod-4.0.0\lib\win64;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o-src\cholmod-4.0.0\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Tools\OpenCV2.4.10\opencv\build\include;C:\Tools\OpenCV2.4.10\opencv\build\include\opencv;C:\Tools\OpenCV2.4.10\opencv\build\include\opencv2;C:\Tools\openCV2.4.10\opencv\build\include\opencv;C:\Tools\openCV2.4.10\opencv\build\include\opencv2;C:\Tools\openCV2.4.10\opencv\build\include;C:\Tools\PCL1.7.2Vs12X64\include\pcl-1.7\;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Boost\include\boost-1_57;C:\Program Files %28x86%29\OpenNI\Include;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Eigen\eigen3;C:\Tools\PCL1.7.2Vs12X64\3rdParty\FLANN\include;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Qhull\include;C:\Tools\PCL1.7.2Vs12X64\3rdParty\VTK\include\vtk-6.2;C:\QT\QT4.8.6X86\include\QtCore;C:\QT\QT4.8.6X86\include\QtGui;C:\QT\QT4.8.6X86\include\Qt3Support;C:\QT\QT4.8.6X86\include\QtOpenGL;C:\QT\QT4.8.6X86\include\;..\..\..\..\Dbow_orbslam\DboW2;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\DBoW2_orbslam\DBoW2;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\DBoW2_orbslam\DUtils;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\g2o\;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\g2o\cholmod-4.0.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Tools\OpenCV2.4.10\opencv\build\x64\vc11;C:\Tools\openCV2.4.10\opencv\build\x64\vc11\lib;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Boost\lib;C:\Tools\PCL1.7.2Vs12X64\3rdParty\VTK\lib\;C:\Tools\PCL1.7.2Vs12X64\3rdParty\FLANN\lib;C:\Tools\PCL1.7.2Vs12X64\lib\;C:\Tools\PCL1.7.2Vs12X64\3rdParty\Qhull\lib;C:\Program Files %28x86%29\OpenNI\Lib;C:\QT\QT4.8.6X86\lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64\g2o\bin\Release;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o-src\cholmod-4.0.0\lib;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\DBoW2_orbslam\lib\Debug;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o-src\cholmod-4.0.0\lib\win64;D:\CodeBase\IisuVR\ORB_SLAM_vs2012_x64-MDd\g2o-src\cholmod-4.0.0\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories />
+      <AdditionalDependencies>opencv_calib3d2410d.lib;opencv_core2410d.lib;opencv_features2d2410d.lib;opencv_flann2410d.lib;opencv_highgui2410d.lib;opencv_imgproc2410d.lib;pcl_common_debug.lib;pcl_io_debug.lib;pcl_io_ply_debug.lib;pcl_visualization_debug.lib;vtkzlib-6.2-gd.lib;vtkViewsInfovis-6.2-gd.lib;vtkViewsCore-6.2-gd.lib;vtkViewsContext2D-6.2-gd.lib;vtkverdict-6.2-gd.lib;vtktiff-6.2-gd.lib;vtksys-6.2-gd.lib;vtksqlite-6.2-gd.lib;vtkRenderingVolumeOpenGL-6.2-gd.lib;vtkRenderingVolume-6.2-gd.lib;vtkRenderingOpenGL-6.2-gd.lib;vtkRenderingLOD-6.2-gd.lib;vtkRenderingLIC-6.2-gd.lib;vtkRenderingLabel-6.2-gd.lib;vtkRenderingImage-6.2-gd.lib;vtkRenderingGL2PS-6.2-gd.lib;vtkRenderingFreeTypeOpenGL-6.2-gd.lib;vtkRenderingFreeType-6.2-gd.lib;vtkRenderingCore-6.2-gd.lib;vtkRenderingContextOpenGL-6.2-gd.lib;vtkRenderingContext2D-6.2-gd.lib;vtkRenderingAnnotation-6.2-gd.lib;vtkproj4-6.2-gd.lib;vtkpng-6.2-gd.lib;vtkParallelCore-6.2-gd.lib;vtkoggtheora-6.2-gd.lib;vtkNetCDF-6.2-gd.lib;vtkNetCDF_cxx-6.2-gd.lib;vtkmetaio-6.2-gd.lib;vtklibxml2-6.2-gd.lib;vtkjsoncpp-6.2-gd.lib;vtkjpeg-6.2-gd.lib;vtkIOXMLParser-6.2-gd.lib;vtkIOXML-6.2-gd.lib;vtkIOVideo-6.2-gd.lib;vtkIOSQL-6.2-gd.lib;vtkIOPLY-6.2-gd.lib;vtkIOParallelXML-6.2-gd.lib;vtkIOParallel-6.2-gd.lib;vtkIONetCDF-6.2-gd.lib;vtkIOMovie-6.2-gd.lib;vtkIOMINC-6.2-gd.lib;vtkIOLSDyna-6.2-gd.lib;vtkIOLegacy-6.2-gd.lib;vtkIOInfovis-6.2-gd.lib;vtkIOImport-6.2-gd.lib;vtkIOImage-6.2-gd.lib;vtkIOGeometry-6.2-gd.lib;vtkIOExport-6.2-gd.lib;vtkIOExodus-6.2-gd.lib;vtkIOEnSight-6.2-gd.lib;vtkIOCore-6.2-gd.lib;vtkIOAMR-6.2-gd.lib;vtkInteractionWidgets-6.2-gd.lib;vtkInteractionStyle-6.2-gd.lib;vtkInteractionImage-6.2-gd.lib;vtkInfovisLayout-6.2-gd.lib;vtkInfovisCore-6.2-gd.lib;vtkImagingStencil-6.2-gd.lib;vtkImagingStatistics-6.2-gd.lib;vtkImagingSources-6.2-gd.lib;vtkImagingMorphological-6.2-gd.lib;vtkImagingMath-6.2-gd.lib;vtkImagingHybrid-6.2-gd.lib;vtkImagingGeneral-6.2-gd.lib;vtkImagingFourier-6.2-gd.lib;vtkImagingCore-6.2-gd.lib;vtkImagingColor-6.2-gd.lib;vtkhdf5-6.2-gd.lib;vtkhdf5_hl-6.2-gd.lib;vtkgl2ps-6.2-gd.lib;vtkGeovisCore-6.2-gd.lib;vtkftgl-6.2-gd.lib;vtkfreetype-6.2-gd.lib;vtkFiltersVerdict-6.2-gd.lib;vtkFiltersTexture-6.2-gd.lib;vtkFiltersStatistics-6.2-gd.lib;vtkFiltersSources-6.2-gd.lib;vtkFiltersSMP-6.2-gd.lib;vtkFiltersSelection-6.2-gd.lib;vtkFiltersProgrammable-6.2-gd.lib;vtkFiltersParallelImaging-6.2-gd.lib;vtkFiltersParallel-6.2-gd.lib;vtkFiltersModeling-6.2-gd.lib;vtkFiltersImaging-6.2-gd.lib;vtkFiltersHyperTree-6.2-gd.lib;vtkFiltersHybrid-6.2-gd.lib;vtkFiltersGeometry-6.2-gd.lib;vtkFiltersGeneric-6.2-gd.lib;vtkFiltersGeneral-6.2-gd.lib;vtkFiltersFlowPaths-6.2-gd.lib;vtkFiltersExtraction-6.2-gd.lib;vtkFiltersCore-6.2-gd.lib;vtkFiltersAMR-6.2-gd.lib;vtkexpat-6.2-gd.lib;vtkexoIIc-6.2-gd.lib;vtkDomainsChemistry-6.2-gd.lib;vtkDICOMParser-6.2-gd.lib;vtkCommonTransforms-6.2-gd.lib;vtkCommonSystem-6.2-gd.lib;vtkCommonMisc-6.2-gd.lib;vtkCommonMath-6.2-gd.lib;vtkCommonExecutionModel-6.2-gd.lib;vtkCommonDataModel-6.2-gd.lib;vtkCommonCore-6.2-gd.lib;vtkCommonComputationalGeometry-6.2-gd.lib;vtkCommonColor-6.2-gd.lib;vtkChartsCore-6.2-gd.lib;vtkalglib-6.2-gd.lib;libboost_filesystem-vc110-mt-gd-1_57.lib;libboost_system-vc110-mt-gd-1_57.lib;DBoW2.lib;g2o_calibration_odom_laser_d.lib;g2o_cli_d.lib;g2o_core_d.lib;g2o_csparse_extension_d.lib;g2o_ext_csparse_d.lib;g2o_hierarchical_d.lib;g2o_interface_d.lib;g2o_parser_d.lib;g2o_solver_csparse_d.lib;g2o_solver_dense_d.lib;g2o_solver_pcg_d.lib;g2o_solver_slam2d_linear_d.lib;g2o_solver_structure_only_d.lib;g2o_stuff_d.lib;g2o_tutorial_slam2d_d.lib;g2o_types_data_d.lib;g2o_types_icp_d.lib;g2o_types_sba_d.lib;g2o_types_sclam2d_d.lib;g2o_types_sim3_d.lib;g2o_types_slam2d_addons_d.lib;g2o_types_slam2d_d.lib;g2o_types_slam3d_addons_d.lib;g2o_types_slam3d_d.lib;libamd.lib;libcamd.lib;libccolamd.lib;libcholmod.lib;libcolamd.lib;libmetis.lib;libopenblas.lib;SuiteSparse_config.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\..\DBoW2_orbslam\DBoW2;..\..\..\..\DBoW2_orbslam\DUtils;..\..\..\..\g2o;..\..\..\..\g2o\cholmod-4.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\..\..\g2o\bin\Release;..\..\..\..\g2o\cholmod-4.0.0\lib\win64;..\..\..\..\DBoW2_orbslam\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>g2o_core.lib;g2o_solver_dense.lib;g2o_stuff.lib;g2o_types_slam3d.lib;g2o_types_sba.lib;g2o_types_sim3.lib;libamd.lib;libcamd.lib;libccolamd.lib;libcholmod.lib;libcolamd.lib;libmetis.lib;libopenblas.lib;SuiteSparse_config.lib;DBoW2.lib;opencv_calib3d2410.lib;opencv_core2410.lib;opencv_features2d2410.lib;opencv_flann2410.lib;opencv_highgui2410.lib;opencv_imgproc2410d.lib;pcl_common_release.lib;pcl_io_release.lib;pcl_io_ply_release.lib;pcl_visualization_release.lib;pcl_features_release.lib;pcl_filters_release.lib;pcl_kdtree_release.lib;pcl_keypoints_release.lib;pcl_octree_release.lib;pcl_outofcore_release.lib;pcl_people_release.lib;pcl_recognition_release.lib;pcl_registration_release.lib;pcl_sample_consensus_release.lib;pcl_search_release.lib;pcl_segmentation_release.lib;pcl_surface_release.lib;pcl_tracking_release.lib;libboost_atomic-vc110-mt-1_57.lib;libboost_chrono-vc110-mt-1_57.lib;libboost_container-vc110-mt-1_57.lib;libboost_context-vc110-mt-1_57.lib;libboost_coroutine-vc110-mt-1_57.lib;libboost_date_time-vc110-mt-1_57.lib;libboost_exception-vc110-mt-1_57.lib;libboost_filesystem-vc110-mt-1_57.lib;libboost_graph-vc110-mt-1_57.lib;libboost_iostreams-vc110-mt-1_57.lib;libboost_locale-vc110-mt-1_57.lib;libboost_log-vc110-mt-1_57.lib;libboost_log_setup-vc110-mt-1_57.lib;libboost_math_c99-vc110-mt-1_57.lib;libboost_math_c99f-vc110-mt-1_57.lib;libboost_math_c99l-vc110-mt-1_57.lib;libboost_math_tr1-vc110-mt-1_57.lib;libboost_math_tr1f-vc110-mt-1_57.lib;libboost_math_tr1l-vc110-mt-1_57.lib;libboost_mpi-vc110-mt-1_57.lib;libboost_prg_exec_monitor-vc110-mt-1_57.lib;libboost_program_options-vc110-mt-1_57.lib;libboost_random-vc110-mt-1_57.lib;libboost_regex-vc110-mt-1_57.lib;libboost_serialization-vc110-mt-1_57.lib;libboost_signals-vc110-mt-1_57.lib;libboost_system-vc110-mt-1_57.lib;libboost_test_exec_monitor-vc110-mt-1_57.lib;libboost_thread-vc110-mt-1_57.lib;libboost_timer-vc110-mt-1_57.lib;libboost_unit_test_framework-vc110-mt-1_57.lib;libboost_wave-vc110-mt-1_57.lib;libboost_wserialization-vc110-mt-1_57.lib;flann_cpp_s.lib;qhullstatic.lib;vtkalglib-6.2.lib;vtkChartsCore-6.2.lib;vtkCommonColor-6.2.lib;vtkCommonComputationalGeometry-6.2.lib;vtkCommonCore-6.2.lib;vtkCommonDataModel-6.2.lib;vtkCommonExecutionModel-6.2.lib;vtkCommonMath-6.2.lib;vtkCommonMisc-6.2.lib;vtkCommonSystem-6.2.lib;vtkCommonTransforms-6.2.lib;vtkDICOMParser-6.2.lib;vtkDomainsChemistry-6.2.lib;vtkexoIIc-6.2.lib;vtkexpat-6.2.lib;vtkFiltersAMR-6.2.lib;vtkFiltersCore-6.2.lib;vtkFiltersExtraction-6.2.lib;vtkFiltersFlowPaths-6.2.lib;vtkFiltersGeneral-6.2.lib;vtkFiltersGeneric-6.2.lib;vtkFiltersGeometry-6.2.lib;vtkFiltersHybrid-6.2.lib;vtkFiltersHyperTree-6.2.lib;vtkFiltersImaging-6.2.lib;vtkFiltersModeling-6.2.lib;vtkFiltersParallel-6.2.lib;vtkFiltersParallelImaging-6.2.lib;vtkFiltersProgrammable-6.2.lib;vtkFiltersSelection-6.2.lib;vtkFiltersSMP-6.2.lib;vtkFiltersSources-6.2.lib;vtkFiltersStatistics-6.2.lib;vtkFiltersTexture-6.2.lib;vtkFiltersVerdict-6.2.lib;vtkfreetype-6.2.lib;vtkftgl-6.2.lib;vtkGeovisCore-6.2.lib;vtkgl2ps-6.2.lib;vtkhdf5-6.2.lib;vtkhdf5_hl-6.2.lib;vtkImagingColor-6.2.lib;vtkImagingCore-6.2.lib;vtkImagingFourier-6.2.lib;vtkImagingGeneral-6.2.lib;vtkImagingHybrid-6.2.lib;vtkImagingMath-6.2.lib;vtkImagingMorphological-6.2.lib;vtkImagingSources-6.2.lib;vtkImagingStatistics-6.2.lib;vtkImagingStencil-6.2.lib;vtkInfovisCore-6.2.lib;vtkInfovisLayout-6.2.lib;vtkInteractionImage-6.2.lib;vtkInteractionStyle-6.2.lib;vtkInteractionWidgets-6.2.lib;vtkIOAMR-6.2.lib;vtkIOCore-6.2.lib;vtkIOEnSight-6.2.lib;vtkIOExodus-6.2.lib;vtkIOExport-6.2.lib;vtkIOGeometry-6.2.lib;vtkIOImage-6.2.lib;vtkIOImport-6.2.lib;vtkIOInfovis-6.2.lib;vtkIOLegacy-6.2.lib;vtkIOLSDyna-6.2.lib;vtkIOMINC-6.2.lib;vtkIOMovie-6.2.lib;vtkIONetCDF-6.2.lib;vtkIOParallel-6.2.lib;vtkIOParallelXML-6.2.lib;vtkIOPLY-6.2.lib;vtkIOSQL-6.2.lib;vtkIOVideo-6.2.lib;vtkIOXML-6.2.lib;vtkIOXMLParser-6.2.lib;vtkjpeg-6.2.lib;vtkjsoncpp-6.2.lib;vtklibxml2-6.2.lib;vtkmetaio-6.2.lib;vtkNetCDF-6.2.lib;vtkNetCDF_cxx-6.2.lib;vtkoggtheora-6.2.lib;vtkParallelCore-6.2.lib;vtkpng-6.2.lib;vtkproj4-6.2.lib;vtkRenderingAnnotation-6.2.lib;vtkRenderingContext2D-6.2.lib;vtkRenderingContextOpenGL-6.2.lib;vtkRenderingCore-6.2.lib;vtkRenderingFreeType-6.2.lib;vtkRenderingFreeTypeOpenGL-6.2.lib;vtkRenderingGL2PS-6.2.lib;vtkRenderingImage-6.2.lib;vtkRenderingLabel-6.2.lib;vtkRenderingLIC-6.2.lib;vtkRenderingLOD-6.2.lib;vtkRenderingOpenGL-6.2.lib;vtkRenderingVolume-6.2.lib;vtkRenderingVolumeOpenGL-6.2.lib;vtksqlite-6.2.lib;vtksys-6.2.lib;vtktiff-6.2.lib;vtkverdict-6.2.lib;vtkViewsContext2D-6.2.lib;vtkViewsCore-6.2.lib;vtkViewsInfovis-6.2.lib;vtkzlib-6.2.lib;opencv_imgproc2410.lib;opencv_ml2410.lib;opencv_objdetect2410.lib;opencv_photo2410.lib;opencv_stitching2410.lib;opencv_superres2410.lib;opencv_ts2410.lib;opencv_video2410.lib;opencv_videostab2410.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\source\ComputeScale.h" />
+    <ClInclude Include="..\..\..\..\source\Converter.h" />
+    <ClInclude Include="..\..\..\..\source\Frame.h" />
+    <ClInclude Include="..\..\..\..\source\FramePublisher.h" />
+    <ClInclude Include="..\..\..\..\source\Initializer.h" />
+    <ClInclude Include="..\..\..\..\source\KeyFrame.h" />
+    <ClInclude Include="..\..\..\..\source\KeyFrameDatabase.h" />
+    <ClInclude Include="..\..\..\..\source\LocalMapping.h" />
+    <ClInclude Include="..\..\..\..\source\LoopClosing.h" />
+    <ClInclude Include="..\..\..\..\source\Map.h" />
+    <ClInclude Include="..\..\..\..\source\MapPoint.h" />
+    <ClInclude Include="..\..\..\..\source\MapPublisher.h" />
+    <ClInclude Include="..\..\..\..\source\Optimizer.h" />
+    <ClInclude Include="..\..\..\..\source\ORBextractor.h" />
+    <ClInclude Include="..\..\..\..\source\ORBmatcher.h" />
+    <ClInclude Include="..\..\..\..\source\ORBVocabulary.h" />
+    <ClInclude Include="..\..\..\..\source\PnPsolver.h" />
+    <ClInclude Include="..\..\..\..\source\ShowTrajectory.h" />
+    <ClInclude Include="..\..\..\..\source\Sim3Solver.h" />
+    <ClInclude Include="..\..\..\..\source\stdafx.h" />
+    <ClInclude Include="..\..\..\..\source\targetver.h" />
+    <ClInclude Include="..\..\..\..\source\Tracking.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\ComputeScale.cpp" />
+    <ClCompile Include="..\..\..\..\source\Converter.cpp" />
+    <ClCompile Include="..\..\..\..\source\Frame.cpp" />
+    <ClCompile Include="..\..\..\..\source\FramePublisher.cpp" />
+    <ClCompile Include="..\..\..\..\source\Initializer.cpp" />
+    <ClCompile Include="..\..\..\..\source\KeyFrame.cpp" />
+    <ClCompile Include="..\..\..\..\source\KeyFrameDatabase.cpp" />
+    <ClCompile Include="..\..\..\..\source\LocalMapping.cpp" />
+    <ClCompile Include="..\..\..\..\source\LoopClosing.cpp" />
+    <ClCompile Include="..\..\..\..\source\Map.cpp" />
+    <ClCompile Include="..\..\..\..\source\MapPoint.cpp" />
+    <ClCompile Include="..\..\..\..\source\MapPublisher.cpp" />
+    <ClCompile Include="..\..\..\..\source\Monoslam_test.cpp" />
+    <ClCompile Include="..\..\..\..\source\Optimizer.cpp" />
+    <ClCompile Include="..\..\..\..\source\ORBextractor.cpp" />
+    <ClCompile Include="..\..\..\..\source\ORBmatcher.cpp" />
+    <ClCompile Include="..\..\..\..\source\PnPsolver.cpp" />
+    <ClCompile Include="..\..\..\..\source\ShowTrajectory.cpp" />
+    <ClCompile Include="..\..\..\..\source\Sim3Solver.cpp" />
+    <ClCompile Include="..\..\..\..\source\stdafx.cpp" />
+    <ClCompile Include="..\..\..\..\source\Tracking.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

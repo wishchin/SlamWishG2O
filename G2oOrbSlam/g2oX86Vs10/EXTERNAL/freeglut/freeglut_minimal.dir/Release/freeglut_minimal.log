@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/1/11 16:33:38。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\freeglut\freeglut_minimal.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“freeglut_minimal.dir\Release\freeglut_minimal.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/EXTERNAL/freeglut/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\freeglut\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\freeglut\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D freeglut_minimal_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"freeglut_minimal.dir\Release\\" /Fd"freeglut_minimal.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\g2o\EXTERNAL\freeglut\freeglut_font.cpp ..\..\..\g2o\EXTERNAL\freeglut\freeglut_stroke_mono_roman.cpp ..\..\..\g2o\EXTERNAL\freeglut\freeglut_stroke_roman.cpp
+         freeglut_font.cpp
+         freeglut_stroke_mono_roman.cpp
+         freeglut_stroke_roman.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_ext_freeglut_minimal.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib opengl32.lib /MANIFEST /ManifestFile:"freeglut_minimal.dir\Release\g2o_ext_freeglut_minimal.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_freeglut_minimal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_freeglut_minimal.lib" /MACHINE:X86 /DLL freeglut_minimal.dir\Release\freeglut_font.obj
+         freeglut_minimal.dir\Release\freeglut_stroke_mono_roman.obj
+         freeglut_minimal.dir\Release\freeglut_stroke_roman.obj  /machine:X86 
+            正在创建库 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_freeglut_minimal.lib 和对象 D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/bin/Release/g2o_ext_freeglut_minimal.exp
+         freeglut_minimal.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_ext_freeglut_minimal.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_ext_freeglut_minimal.dll;#2" /manifest freeglut_minimal.dir\Release\g2o_ext_freeglut_minimal.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“freeglut_minimal.dir\Release\freeglut_minimal.unsuccessfulbuild”。
+         正在对“freeglut_minimal.dir\Release\freeglut_minimal.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\EXTERNAL\freeglut\freeglut_minimal.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:35.69

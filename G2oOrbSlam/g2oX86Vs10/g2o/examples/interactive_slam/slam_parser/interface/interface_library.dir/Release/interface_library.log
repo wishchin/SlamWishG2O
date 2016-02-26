@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/1/11 16:34:23。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\interface\interface_library.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“interface_library.dir\Release\interface_library.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/examples/interactive_slam/slam_parser/interface/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\interface\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         正在创建目录“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\interface\Release”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\g2o\examples\interactive_slam\slam_parser\interface\..\.. /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"interface_library.dir\Release\\" /Fd"interface_library.dir\Release\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\..\..\g2o\g2o\examples\interactive_slam\slam_parser\interface\parser_interface.cpp ..\..\..\..\..\..\g2o\g2o\examples\interactive_slam\slam_parser\interface\slam_context_interface.cpp
+         parser_interface.cpp
+         slam_context_interface.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_interface.lib" /NOLOGO interface_library.dir\Release\parser_interface.obj
+         interface_library.dir\Release\slam_context_interface.obj
+         interface_library.vcxproj -> D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o\bin\Release\g2o_interface.lib
+       FinalizeBuildStatus:
+         正在删除文件“interface_library.dir\Release\interface_library.unsuccessfulbuild”。
+         正在对“interface_library.dir\Release\interface_library.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\examples\interactive_slam\slam_parser\interface\interface_library.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.11

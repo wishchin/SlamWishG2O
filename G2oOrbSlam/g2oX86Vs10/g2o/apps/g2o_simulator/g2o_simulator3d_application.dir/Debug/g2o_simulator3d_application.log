@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/1/11 15:51:24。
+     1>项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\g2o_simulator3d_application.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“g2o_simulator3d_application.dir\Debug\g2o_simulator3d_application.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/CodeBase/IisuVR/ORB_SLAM_vs2010_x86/g2o/g2o/apps/g2o_simulator/CMakeLists.txt
+         CMake does not need to re-run because D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2o /IC:\Tools\Eigen\include /ID:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10 /Zi /nologo /W3 /WX- /Od /Ob2 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"g2o_simulator3d_application.dir\Debug\\" /Fd"g2o_simulator3d_application.dir\Debug\vc100.pdb" /Gd /TP /wd4251 /wd4244 /wd4267 /wd4522 /analyze- /errorReport:prompt ..\..\..\..\g2o\g2o\apps\g2o_simulator\test_simulator3d.cpp
+         test_simulator3d.cpp
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\test_simulator3d.cpp(76): error C2664: “g2o::sampleUniform”: 不能将参数 3 从“std::tr1::mt19937 *”转换为“std::tr1::ranlux_base_01 *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>..\..\..\..\g2o\g2o\apps\g2o_simulator\test_simulator3d.cpp(77): error C2664: “g2o::sampleUniform”: 不能将参数 3 从“std::tr1::mt19937 *”转换为“std::tr1::ranlux_base_01 *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>已完成生成项目“D:\CodeBase\IisuVR\ORB_SLAM_vs2010_x86\g2oX86Vs10\g2o\apps\g2o_simulator\g2o_simulator3d_application.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:21.04
